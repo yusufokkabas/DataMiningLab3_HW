@@ -51,31 +51,13 @@ print("After removing noisy data", dF)
 # Equal Depth and Smoothing by bin boundaries method
 dF = dF.sort_values(by='IQ')
 print(dF)
-# bin_size = len(dF) // 4
-# boundaries = [dF['IQ'].iloc[i * bin_size] for i in range(1, 4)]
-# print(boundaries)
-# dF['Bin'] = np.digitize(dF['IQ'], boundaries)
-# print(dF)
-# Sample data
-
-# Define the bin boundaries
 bin_boundaries = [79, 86, 100, 102, 105, 110,
-                  120, 129]  # Define your desired boundaries
-
-# Assign data points to bins based on bin boundaries
+                  120, 129] 
 dF['Bin'] = pd.cut(dF['IQ'], bins=bin_boundaries,
                    labels=False, include_lowest=True)
-
-# Calculate the bin mean for each bin
 bin_means = dF.groupby('Bin')['IQ'].mean()
-
-# Replace values in each bin with the bin mean
 dF['IQ'] = dF['Bin'].map(bin_means)
-
-# Drop the 'Bin' column (optional)
 dF = dF.drop(columns=['Bin'])
-
-# Print the smoothed DataFrame
 print("After Smoothing", dF)
 # Fixed k-Interval k=5 for Parent Income
 vmin = dF['ParentIncome'].min()
