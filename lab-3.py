@@ -50,14 +50,7 @@ dF['AverageGrade'] = np.where((dF['AverageGrade'] < 0) | (
 print("After removing noisy data", dF)
 # Equal Depth and Smoothing by bin boundaries method
 dF = dF.sort_values(by='IQ')
-print(dF)
-bin_boundaries = [79, 86, 100, 102, 105, 110,
-                  120, 129] 
-dF['Bin'] = pd.cut(dF['IQ'], bins=bin_boundaries,
-                   labels=False, include_lowest=True)
-bin_means = dF.groupby('Bin')['IQ'].mean()
-dF['IQ'] = dF['Bin'].map(bin_means)
-dF = dF.drop(columns=['Bin'])
+dF['IQ'] = pd.cut(dF['IQ'], bins=4)
 print("After Smoothing", dF)
 # Fixed k-Interval k=5 for Parent Income
 vmin = dF['ParentIncome'].min()
