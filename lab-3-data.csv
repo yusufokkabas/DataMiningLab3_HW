@@ -1,0 +1,11 @@
+﻿StudentID;FirstName;LastName;Age;Gender;ParentIncome;IQ;ParentEncouragement;AverageGrade;Region;CollegePlans
+1;Gustavo;Achong;17;Male;46500;100;Not Encouraged;63;Brazil;Does not plan to attend
+2;Catherine;Abel;22;Male;39600;121;Not Encouraged;45;Canada;Does not plan to attend
+3;Kim;Abercrombie;20;Male;69740;102;Encouraged;73;Panama;Plans to attend
+4;Humberto;Acevedo;;Female;40400;129;Not Encouraged;65;Canada;Not
+5;Pilar;Ackerman;19;M;7300;86;Not Encouraged;85;Argentina;Does not plan to attend
+6;Frances;Adams;180;Female;17600;105;Not Encouraged;87;Brazil;Does not plan to attend
+7;Margaret;Smith;20;Male;33500;110;Not;85;Brazil;P
+8;Carla;Adams;20;Male;48100;102;Not Encouraged;95;Brazil;Plans to attend
+9;Jay;Adams;-21;1;33300;79;Not Encouraged;82;Argentina;Does not plan to attend
+10;Ronald;Adina;20;Male;80630;120;Encouraged;43;Panama;Plans to attend

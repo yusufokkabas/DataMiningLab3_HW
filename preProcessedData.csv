@@ -1,0 +1,11 @@
+StudentID,Age,Gender,ParentIncome,IQ,ParentEncouragement,AverageGrade,Region,CollegePlans
+9,20.0,Male,Low,82.5,Not Encouraged,3.25,South America,Does not plan to attend
+5,19.0,Male,Very Low,82.5,Not Encouraged,3.4230769230769234,South America,Does not plan to attend
+1,17.0,Male,Medium,100.0,Not Encouraged,2.153846153846154,South America,Does not plan to attend
+3,20.0,Male,Very High,102.0,Encouraged,2.730769230769231,Center America,Plans to attend
+8,20.0,Male,Medium,102.0,Not Encouraged,4.0,South America,Plans to attend
+6,20.0,Female,Very Low,105.0,Not Encouraged,3.5384615384615383,South America,Does not plan to attend
+7,20.0,Male,Low,110.0,Not Encouraged,3.4230769230769234,South America,Plans to attend
+10,20.0,Male,Very High,120.0,Encouraged,1.0,Center America,Plans to attend
+2,22.0,Male,Medium,125.0,Not Encouraged,1.1153846153846154,North America,Does not plan to attend
+4,20.0,Female,Medium,125.0,Not Encouraged,2.269230769230769,North America,Does not plan to attend
