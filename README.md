@@ -1,5 +1,3 @@
-# 4416-lab-3
-
 Apply the following data preparation operations and techniques on the sample dataset CollegePlans. 
 
 1.	Remove unimportant attributes which will not use for data mining algorithm.  
